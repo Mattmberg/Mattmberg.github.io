@@ -1,11 +1,29 @@
+.header {
+  text-align: center;
+}
+
+.content {
+  max-width: 800px;
+  margin: auto;
+}
+
 body {
-  background-color: cyan;
+  background: radial-gradient(at bottom right, hsl(210, 100%, 60%), hsl(90, 100%, 80%));
+}
+
+.main {
+  flex: 100%
+  background-color: white;
 }
 
 h1 {
-  color: lightgreen;
+  color: black;
 }
 
 p {
-  color: red; 
+  color: black; 
+}
+
+.footer {
+  text-align: center;
 }
