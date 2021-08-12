@@ -1,10 +1,22 @@
-html {
-  height: 100%;
+.content {
+  max-width: 800px;
+  margin: auto;
+}
+
+body {
+  background: radial-gradient(at bottom right, hsl(210, 100%, 60%), hsl(90, 100%, 80%));
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
 }
 
 .header {
   padding: 80px;
   text-align: center;
+  color: black;
+}
+
+.header h1 {
+  font-size: 40px;
 }
 
 .navbar {
@@ -12,32 +24,44 @@ html {
   background-color: #333;
 }
 
-.content {
-  max-width: 800px;
-  margin: auto;
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
 }
 
-body {
-  height: 100%;
-  background-repeat: no-repeat;
-  background: radial-gradient(at bottom right, hsl(210, 100%, 60%), hsl(90, 100%, 80%));
+.navbar a.right {
+  float: right;
 }
 
-.main {
-  flex: 100%
-  background-color: white;
-  padding: 20px;
-}
-
-h1 {
+.navbar a:hover {
+  background-color: #ddd;
   color: black;
 }
 
-p {
-  color: black; 
+.main {   
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
 }
 
 .footer {
   padding: 20px;
   text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
 }
