@@ -11,6 +11,7 @@ body {
   background: radial-gradient(at bottom right, hsl(210, 100%, 60%), hsl(90, 100%, 80%));
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
+  height: 100%
 }
 
 .header {
