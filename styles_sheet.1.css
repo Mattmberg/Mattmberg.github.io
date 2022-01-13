@@ -5,6 +5,7 @@ html {
 .content {
   max-width: 800px;
   margin: auto;
+  background-color: #00ace6;
 }
 
 .content h2 {
