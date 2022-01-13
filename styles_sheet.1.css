@@ -5,7 +5,6 @@ html {
 .content {
   max-width: 800px;
   margin: auto;
-  background: #00ace6;
 }
 
 .content h2 {
@@ -61,7 +60,7 @@ body {
 }
 
 .main {   
-  background-color: white;
+  background-color: #00ace6;
   padding: 20px;
 }
 
